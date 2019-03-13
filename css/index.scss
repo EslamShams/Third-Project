@@ -639,12 +639,16 @@ box-shadow: 1px 1px 1px yellow;
     }
 }
 .My-articles{
+    height: 100%;
     div{
         margin-bottom:140px;
         img{
             width:150px;
             margin-left:20px;
             display:block;
+        }
+        p{
+            margin-bottom:10px;
         }
     }
 }

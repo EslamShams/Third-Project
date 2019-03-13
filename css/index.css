@@ -635,6 +635,9 @@ body {
   .gallary img {
     margin-left: 80px;
   }
+  .My-articles {
+    height: 100%;
+  }
   .My-articles div {
     margin-bottom: 140px;
   }
@@ -642,6 +645,9 @@ body {
     width: 150px;
     margin-left: 20px;
     display: block;
+  }
+  .My-articles div p {
+    margin-bottom: 10px;
   }
   .table {
     width: 500px;
