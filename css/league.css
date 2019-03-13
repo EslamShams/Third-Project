@@ -1,0 +1,223 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #135c94;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.imgslider {
+  margin: 50px 250px;
+  width: 60%;
+  height: 400px;
+}
+
+.imgslider img {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 2px red;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+.important {
+  background-color: black;
+  height: 400px;
+  width: 700px;
+  margin-left: 300px;
+  margin-top: 0;
+}
+
+.important p {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.news div {
+  background-color: black;
+  width: 400px;
+  height: 200px;
+  margin-left: 30px;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.news div p {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.standing {
+  margin-left: 200px;
+  display: inline-block;
+}
+
+.standing h2 {
+  color: black;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 2px red;
+}
+
+.standing table {
+  color: white;
+}
+
+.standing table :nth-child(2) :first-child {
+  background-color: blue;
+}
+
+.standing table :nth-child(3) :first-child {
+  background-color: blue;
+}
+
+.standing table :nth-child(4) :first-child {
+  background-color: blue;
+}
+
+.standing table :nth-child(5) :first-child {
+  background-color: blue;
+}
+
+.standing table :nth-child(6) :first-child {
+  background-color: red;
+}
+
+.standing table tr th {
+  border: 2px solid white;
+}
+
+.standing table tr td {
+  border: 2px solid white;
+}
+
+.clander {
+  background-color: black;
+  margin-top: 20px;
+}
+
+.clander p {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.clander footer {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.clander footer span {
+  color: white;
+  margin-right: 20px;
+}
+
+.clander footer :nth-child(2) {
+  cursor: pointer;
+  color: #1a1aec;
+  font-size: 20px;
+}
+
+.clander footer :nth-child(3) {
+  cursor: pointer;
+  color: #52b8e7;
+  font-size: 20px;
+}
+
+.clander footer :nth-child(4) {
+  cursor: pointer;
+  color: #ec4c67;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .imgslider {
+    margin: 50px 0;
+    width: 100%;
+    height: 400px;
+  }
+  .imgslider img {
+    width: 100%;
+    height: 100%;
+  }
+  div h1 {
+    text-align: left;
+    margin-left: 150px;
+  }
+  .important {
+    background-color: black;
+    height: 400px;
+    width: 450px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .important p {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 150px;
+  }
+  .news div {
+    background-color: black;
+    width: 400px;
+    height: 200px;
+    margin-left: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .news div p {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 80px;
+  }
+  .standing {
+    margin-left: 0;
+  }
+  .standing h2 {
+    color: black;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px red;
+  }
+  .clander {
+    margin-top: 20px;
+  }
+  .clander h1 {
+    margin-left: 70px;
+  }
+  .clander p {
+    font-size: 20px;
+    text-align: left;
+  }
+  .clander footer {
+    margin-top: 20px;
+    text-align: left;
+  }
+  .clander footer span {
+    color: white;
+    margin-right: 20px;
+  }
+}
+/*# sourceMappingURL=league.css.map */
